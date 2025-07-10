@@ -1,9 +1,66 @@
 # Programa de Transformação Digital 2025
 
+[![GitHub last commit](https://img.shields.io/github/last-commit/SEU-USUARIO/transformacao-digital-2025)]()
+[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/SEU-USUARIO/transformacao-digital-2025)]()
+
 ## 📋 Sobre o Programa
 - **Duração**: 10/07/2025 - 07/10/2025
 - **Carga Horária Total**: 357 horas
 - **Modalidade**: Online
+- **Objetivo**: Desenvolver competências em transformação digital para o serviço público
+
+---
+
+## 📚 **ROTINA DIÁRIA DE ESTUDOS** (Consulte sempre!)
+
+### 🌅 **ANTES DE ESTUDAR** (5 min)
+```bash
+# 1. Ir para pasta do curso atual
+cd EIXO-1-FUNDAMENTOS/01-novas-tecnologias
+
+# 2. Criar arquivo do dia
+cp ../../RECURSOS-GERAIS/templates/dia-estudo.md dia-01.md
+
+# 3. Abrir e configurar
+open dia-01.md  # Preencher data, objetivos, módulo
+
+# 4. Commit inicial (opcional)
+git add . && git commit -m "📅 Dia 01 - Curso: Iniciando estudos" && git push origin main
+```
+
+### 📖 **DURANTE OS ESTUDOS**
+- Mantenha o arquivo do dia aberto
+- Anote resumos em tempo real
+- Registre dúvidas conforme surgem
+- **Commits intermediários:** `git add . && git commit -m "�� Dia X - Curso: Módulo Y concluído" && git push origin main`
+
+### ✅ **AO FINALIZAR O DIA** (5 min)
+```bash
+# 1. Complete avaliação e próximos passos no arquivo
+# 2. Marque objetivos concluídos [x]
+# 3. Commit final obrigatório
+git add .
+git commit -m "✅ Dia X - Curso: Xh estudadas - Tópico principal"
+git push origin main
+
+# 4. Atualize progresso no README do curso (marcar [x])
+```
+
+### 🎯 **COMANDOS RÁPIDOS (copie e cole)**
+```bash
+# Rotina de 3 comandos (use diariamente)
+git add .
+git commit -m "Sua mensagem aqui"
+git push origin main
+```
+
+**Padrões de mensagens:**
+- Início: `📅 Dia X - Curso: Iniciando`
+- Progresso: `📝 Dia X - Curso: Módulo Y`
+- Final: `✅ Dia X - Curso: Xh - Tópico`
+- Conclusão: `🎉 CONCLUÍDO - Curso: 30h finalizadas`
+
+---
 
 ## 📅 Cronograma de Estudos
 
@@ -38,16 +95,104 @@
 - ⏳ **Visualização de Dados** (30/09-06/10) - 25h
 - ⏳ **Quiz Final** (07/10)
 
+---
+
 ## 📊 Progresso Geral
+
+### Status dos Eixos
+- [ ] **Eixo 1**: 0/8 cursos concluídos (0%)
+- [ ] **Eixo 2**: 0/7 cursos concluídos (0%)
+- [ ] **Eixo 3**: 0/10 cursos concluídos (0%)
+
+### Estatísticas Atuais
 - **📚 Cursos concluídos**: 0/25
 - **⏰ Horas estudadas**: 0/357
 - **🔥 Dias consecutivos**: 0
 - **📈 Progresso geral**: 0%
-
-## 📝 Como Usar
-1. **Diariamente**: Crie arquivo com suas anotações
-2. **Commit**: `git commit -m "Dia X - Curso: O que estudou"`
-3. **Push**: `git push origin main`
+- **🗓️ Dias restantes**: 89 dias
 
 ---
-**Início**: 10/07/2025 | **Meta**: Concluir até 07/10/2025
+
+## 🗂️ Estrutura do Repositório
+
+```
+transformacao-digital-2025/
+├── 📁 EIXO-1-FUNDAMENTOS/          # Cursos fundamentais
+│   ├── 01-novas-tecnologias/       # ← VOCÊ ESTÁ AQUI
+│   ├── 02-fundamentos-processos/
+│   ├── 03-ia-servico-publico/
+│   └── ...
+├── 📁 EIXO-2-COMUNICACAO/          # Comunicação digital  
+├── 📁 EIXO-3-IMPLEMENTACAO/        # Aplicação prática
+└── 📁 RECURSOS-GERAIS/             # Templates e materiais
+    ├── templates/                  # Templates para uso diário
+    ├── comandos-git.md            # Comandos Git úteis
+    └── ...
+```
+
+---
+
+## 🚀 **INÍCIO RÁPIDO** (Para hoje - 10/07)
+
+**Seus próximos passos:**
+
+1. **Criar arquivo do primeiro dia:**
+   ```bash
+   cp RECURSOS-GERAIS/templates/dia-estudo.md EIXO-1-FUNDAMENTOS/01-novas-tecnologias/dia-01.md
+   ```
+
+2. **Abrir e configurar:**
+   ```bash
+   open EIXO-1-FUNDAMENTOS/01-novas-tecnologias/dia-01.md
+   ```
+
+3. **Preencher com:**
+   - Data: 10/07/2025
+   - Duração: 6 horas
+   - Módulo: Introdução às novas tecnologias
+
+4. **Começar a estudar e anotar!**
+
+5. **No final do dia, fazer commit:**
+   ```bash
+   git add .
+   git commit -m "✅ Dia 01 - Novas Tecnologias: 6h estudadas - Conceitos fundamentais"
+   git push origin main
+   ```
+
+---
+
+## 💡 Dicas de Produtividade
+
+- **�� Anote tudo**: Melhor sobrar informação que faltar
+- **🔄 Commits frequentes**: Não perca progresso
+- **⭐ Avalie sempre**: Use as estrelas para autoavaliação
+- **❓ Registre dúvidas**: Para revisar depois
+- **🎯 Objetivos claros**: Defina metas diárias específicas
+- **📊 Acompanhe progresso**: Atualize READMEs regularmente
+
+---
+
+## 🎯 Objetivos de Aprendizagem
+
+- **Fundamentos**: Compreender conceitos básicos da transformação digital
+- **Comunicação**: Desenvolver habilidades de comunicação digital
+- **Implementação**: Aplicar conhecimentos em projetos práticos
+- **Certificação**: Obter certificações relevantes para o currículo
+
+---
+
+## 📬 Informações de Contato
+
+- **GitHub**: [@SEU-USUARIO](https://github.com/SEU-USUARIO)
+- **LinkedIn**: [Seu LinkedIn](https://linkedin.com/in/seu-perfil)
+
+---
+
+**🎯 FOCO DE HOJE**: Começar o primeiro curso "Novas Tecnologias"  
+**⏰ ÚLTIMA ATUALIZAÇÃO**: 10/07/2025  
+**🎯 PRÓXIMA META**: Concluir Eixo 1 até 08/08/2025  
+
+---
+
+*💡 **Lembre-se**: Este README é seu guia diário. Consulte sempre que iniciar os estudos até criar o hábito!*
